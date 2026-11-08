@@ -12,7 +12,7 @@ Image classification on the CIFAR-10 dataset using TensorFlow/Keras, comparing t
 Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck.
 The split is 50,000 training images and 10,000 test images. Pixel values are normalized to the [0, 1] range.
 
-![Sample images](images/sample_images.png)
+![Sample images](results/sample_images.png)
 
 ## Models
 
@@ -30,7 +30,7 @@ The split is 50,000 training images and 10,000 test images. Pixel values are nor
 | **Advanced CNN** | **71.68%** | **0.8187** |
 | VGG16 Transfer | 61.00% | 1.1137 |
 
-![Validation accuracy comparison](images/models_comparison.png)
+![Validation accuracy comparison](results/models_comparison.png)
 
 ### Best model: Advanced CNN
 
@@ -47,7 +47,7 @@ The split is 50,000 training images and 10,000 test images. Pixel values are nor
 | Ship | 0.87 | 0.82 | 0.84 |
 | Truck | 0.63 | 0.93 | 0.75 |
 
-![Confusion matrix](images/confusion_matrix.png)
+![Confusion matrix](results/confusion_matrix.png)
 
 ## Key Observations
 
